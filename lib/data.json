@@ -1,0 +1,434 @@
+{
+    "en": {
+        "brandName": "Mobatravelll",
+        "navigation": [
+            { "name": "Home", "href": "/" },
+            { "name": "Destinations", "href": "/destinations" },
+            { "name": "Trip Plan", "href": "#trip-plan" },
+            { "name": "Contact Us", "href": "/contact" }
+        ],
+        "hero": {
+            "title": "Explore the Beauty of Thousand Islands",
+            "subtitle": "Take a break from the stress of Jakarta, plan your getaway, and explore your favorite islands.",
+            "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600",
+            "locations": [
+                "Pulau Macan",
+                "Pulau Pari",
+                "Pulau Pramuka",
+                "Pulau Harapan",
+                "Pulau Tidung"
+            ],
+            "labels": {
+                "yourLocation": "Search Destination Packages",
+                "destination": "Island Destination",
+                "checkIn": "Departure Date",
+                "checkOut": "Return Date",
+                "guest": "Guests",
+                "search": "Search Trip",
+                "privacy": "Search Privacy Secured"
+            }
+        },
+        "popularPackages": {
+            "title": "Popular Pulau Seribu Packages",
+            "subtitle": "The most trending island packages presented to you.",
+            "exploreMore": "Explore more",
+            "clickDetail": "Click to see detail itinerary",
+            "items": [
+                {
+                    "id": "p1",
+                    "title": "Pulau Macan",
+                    "duration": "3 Days 2 Night",
+                    "image": "https://images.unsplash.com/photo-1540206395-68808572332f?q=80&w=600"
+                },
+                {
+                    "id": "p2",
+                    "title": "Pulau Pari",
+                    "duration": "2 Days 1 Night",
+                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600"
+                },
+                {
+                    "id": "p3",
+                    "title": "Pulau Pramuka",
+                    "duration": "3 Days 2 Night",
+                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                },
+                {
+                    "id": "p4",
+                    "title": "Pulau Harapan",
+                    "duration": "2 Days 1 Night",
+                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
+                }
+            ]
+        },
+        "features": {
+            "title": "Why Book Pulau Seribu With Us",
+            "subtitle": "Enjoy top tier hospitality and seamless island transfers.",
+            "readMore": "Read more",
+            "items": [
+                {
+                    "id": "f1",
+                    "title": "Lots of Island Choices",
+                    "description": "More than 15+ beautiful islands with diverse accommodation types.",
+                    "icon": "Globe"
+                },
+                {
+                    "id": "f2",
+                    "title": "Local Expert Guides",
+                    "description": "Experienced local guides showing you the best snorkeling spots.",
+                    "icon": "UserCheck"
+                },
+                {
+                    "id": "f3",
+                    "title": "Instant Confirmation",
+                    "description": "Easy online booking with fast speedboat ticketing.",
+                    "icon": "Calendar"
+                }
+            ]
+        },
+        "recommendations": {
+            "title": "Best Island Recommendations",
+            "subtitle": "Handpicked experiences and resorts for your tropical escape.",
+            "startFrom": "Price from",
+            "bookNow": "Book Trip",
+            "filterAll": "All Islands",
+            "items": [
+                {
+                    "id": "r1",
+                    "name": "Pulau Macan Eco Resort",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.9,
+                    "duration": "3 days 2 nights eco cabin with a friendly island host.",
+                    "price": 2450000,
+                    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=600"
+                },
+                {
+                    "id": "r2",
+                    "name": "Pulau Pari Sandy Beach",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.7,
+                    "duration": "2 days 1 night with full coral reef snorkeling gear.",
+                    "price": 950000,
+                    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600"
+                },
+                {
+                    "id": "r3",
+                    "name": "Pulau Harapan Hopping",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.8,
+                    "duration": "2 days 1 night island hopping by traditional boat.",
+                    "price": 1150000,
+                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600"
+                },
+                {
+                    "id": "r4",
+                    "name": "Pulau Pramuka Turtle Tour",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.6,
+                    "duration": "3 days 2 nights with turtle conservation educational tour.",
+                    "price": 1250000,
+                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                },
+                {
+                    "id": "r5",
+                    "name": "Pulau Sepa Paradise",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.75,
+                    "duration": "2 days 1 night luxury private beach cottage resort.",
+                    "price": 1950000,
+                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
+                },
+                {
+                    "id": "r6",
+                    "name": "Pulau Tidung Love Bridge",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.65,
+                    "duration": "2 days 1 night bicycle rental & water sports packages.",
+                    "price": 850000,
+                    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=600"
+                }
+            ]
+        },
+        "articles": {
+            "title": "Pulau Seribu Travel Guides",
+            "subtitle": "Discover travel tips and highlights from Thousand Islands.",
+            "readArticle": "Read Article",
+            "exploreMore": "Read more guides",
+            "items": [
+                {
+                    "id": "a1",
+                    "title": "Snorkeling at Pulau Harapan",
+                    "location": "Marine Guide",
+                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600"
+                },
+                {
+                    "id": "a2",
+                    "title": "Turtle Conservation Pramuka",
+                    "location": "Eco Tourism",
+                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                },
+                {
+                    "id": "a3",
+                    "title": "Sunset at Tidung Love Bridge",
+                    "location": "Romance Spot",
+                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600"
+                }
+            ]
+        },
+        "subscribe": {
+            "title": "Stay Updated on Island Promos",
+            "subtitle": "Sign up to receive special Thousand Islands discounts and seasonal promos.",
+            "placeholder": "Enter your email address",
+            "button": "Subscribe Now",
+            "subscribing": "Subscribing...",
+            "successAlert": "Thank you! We will notify you at:"
+        },
+        "footer": {
+            "intro": "Explore beautiful tropical islands and plan your gateway with Mobatravelll. We make your weekend trips unforgettable.",
+            "aboutTitle": "Explore",
+            "featuresTitle": "Quick Links",
+            "companyTitle": "Information",
+            "contactTitle": "Get In Touch",
+            "getApp": "Customer Support",
+            "download": "WhatsApp Chat",
+            "rights": "All rights reserved.",
+            "privacy": "Privacy policy",
+            "terms": "Terms of service",
+            "about": [
+                { "name": "Eco Resorts", "href": "#" },
+                { "name": "Snorkeling Packages", "href": "#" },
+                { "name": "Island Charters", "href": "#" },
+                { "name": "Testimonials", "href": "#" }
+            ],
+            "features": [
+                { "name": "Speedboat Schedule", "href": "#" },
+                { "name": "Marina Ancol Gate", "href": "#" },
+                { "name": "Corporate Outing", "href": "#" },
+                { "name": "Travel Insurance", "href": "#" }
+            ],
+            "company": [
+                { "name": "FAQ", "href": "#" },
+                { "name": "Island Regulations", "href": "#" },
+                { "name": "Privacy & Policy", "href": "#" }
+            ],
+            "contact": {
+                "email": "contact@Mobatravelll.com"
+            }
+        }
+    },
+    "id": {
+        "brandName": "Mobatravelll",
+        "navigation": [
+            { "name": "Beranda", "href": "/" },
+            { "name": "Destinasi", "href": "/destinations" },
+            { "name": "Rencana Perjalanan", "href": "#trip-plan" },
+            { "name": "Hubungi Kami", "href": "/contact" }
+        ],
+        "hero": {
+            "title": "Jelajahi Keindahan Kepulauan Seribu",
+            "subtitle": "Beristirahatlah sejenak dari penatnya Jakarta, rencanakan liburan akhir pekan Anda ke pulau favorit.",
+            "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600",
+            "locations": [
+                "Pulau Macan",
+                "Pulau Pari",
+                "Pulau Pramuka",
+                "Pulau Harapan",
+                "Pulau Tidung"
+            ],
+            "labels": {
+                "yourLocation": "Pencarian Paket Destinasi",
+                "destination": "Destinasi Pulau",
+                "checkIn": "Tanggal Berangkat",
+                "checkOut": "Tanggal Pulang",
+                "guest": "Jumlah Tamu",
+                "search": "Cari Paket",
+                "privacy": "Privasi Pencarian Terjamin"
+            }
+        },
+        "popularPackages": {
+            "title": "Paket Pulau Seribu Populer",
+            "subtitle": "Pilihan paket pulau terpopuler dan terlaris khusus untuk Anda.",
+            "exploreMore": "Lihat Semua Paket",
+            "clickDetail": "Klik untuk melihat detail rencana perjalanan",
+            "items": [
+                {
+                    "id": "p1",
+                    "title": "Pulau Macan",
+                    "duration": "3 Hari 2 Malam",
+                    "image": "https://images.unsplash.com/photo-1540206395-68808572332f?q=80&w=600"
+                },
+                {
+                    "id": "p2",
+                    "title": "Pulau Pari",
+                    "duration": "2 Hari 1 Malam",
+                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600"
+                },
+                {
+                    "id": "p3",
+                    "title": "Pulau Pramuka",
+                    "duration": "3 Hari 2 Malam",
+                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                },
+                {
+                    "id": "p4",
+                    "title": "Pulau Harapan",
+                    "duration": "2 Hari 1 Malam",
+                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
+                }
+            ]
+        },
+        "features": {
+            "title": "Mengapa Memilih Mobatravelll",
+            "subtitle": "Nikmati pelayanan bintang lima dan transportasi speedboat yang aman.",
+            "readMore": "Baca selengkapnya",
+            "items": [
+                {
+                    "id": "f1",
+                    "title": "Banyak Pilihan Pulau",
+                    "description": "Lebih dari 15+ pulau indah dengan tipe akomodasi terlengkap.",
+                    "icon": "Globe"
+                },
+                {
+                    "id": "f2",
+                    "title": "Pemandu Lokal Berpengalaman",
+                    "description": "Guide asli pulau yang tahu spot snorkeling & sunset terbaik.",
+                    "icon": "UserCheck"
+                },
+                {
+                    "id": "f3",
+                    "title": "Konfirmasi Instan",
+                    "description": "Sistem booking mudah dengan tiket speedboat terjamin.",
+                    "icon": "Calendar"
+                }
+            ]
+        },
+        "recommendations": {
+            "title": "Rekomendasi Pulau Terbaik",
+            "subtitle": "Pulau-pulau pilihan dengan keindahan alam tropis yang menawan.",
+            "startFrom": "Mulai dari",
+            "bookNow": "Pesan Trip",
+            "filterAll": "Semua Pulau",
+            "items": [
+                {
+                    "id": "r1",
+                    "name": "Pulau Macan Eco Resort",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.9,
+                    "duration": "Paket 3 hari 2 malam cottage ramah lingkungan dengan pemandu lokal.",
+                    "price": 2450000,
+                    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=600"
+                },
+                {
+                    "id": "r2",
+                    "name": "Pantai Pasir Perawan Pulau Pari",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.7,
+                    "duration": "Paket 2 hari 1 malam lengkap dengan alat snorkeling & sepeda.",
+                    "price": 950000,
+                    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600"
+                },
+                {
+                    "id": "r3",
+                    "name": "Jelajah Pulau Harapan",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.8,
+                    "duration": "Paket 2 hari 1 malam island hopping keliling pulau-pulau tak berpenghuni.",
+                    "price": 1150000,
+                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600"
+                },
+                {
+                    "id": "r4",
+                    "name": "Konservasi Penyu Pulau Pramuka",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.6,
+                    "duration": "Paket 3 hari 2 malam edukasi konservasi penyu dan terumbu karang.",
+                    "price": 1250000,
+                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                },
+                {
+                    "id": "r5",
+                    "name": "Pulau Sepa Paradise Resort",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.75,
+                    "duration": "Paket 2 hari 1 malam cottage pantai privat berpasir putih lembut.",
+                    "price": 1950000,
+                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
+                },
+                {
+                    "id": "r6",
+                    "name": "Jembatan Cinta Pulau Tidung",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.65,
+                    "duration": "Paket 2 hari 1 malam penginapan AC, sepeda, dan wahana banana boat.",
+                    "price": 850000,
+                    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=600"
+                }
+            ]
+        },
+        "articles": {
+            "title": "Panduan & Cerita Liburan",
+            "subtitle": "Temukan info penting dan keseruan petualangan di Kepulauan Seribu.",
+            "readArticle": "Baca Artikel",
+            "exploreMore": "Lihat Panduan Lain",
+            "items": [
+                {
+                    "id": "a1",
+                    "title": "Snorkeling Seru di Pulau Harapan",
+                    "location": "Panduan Wisata",
+                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600"
+                },
+                {
+                    "id": "a2",
+                    "title": "Konservasi Tukik di Pulau Pramuka",
+                    "location": "Wisata Edukasi",
+                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                },
+                {
+                    "id": "a3",
+                    "title": "Sunset Sunset di Jembatan Cinta",
+                    "location": "Spot Romantis",
+                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600"
+                }
+            ]
+        },
+        "subscribe": {
+            "title": "Dapatkan Promo Paket Pulau Seribu",
+            "subtitle": "Daftarkan email Anda untuk menerima diskon akhir pekan dan harga khusus rombongan.",
+            "placeholder": "Masukkan alamat email Anda",
+            "button": "Daftar Promo",
+            "subscribing": "Mengirimkan...",
+            "successAlert": "Terima kasih! Kami akan kabari Anda di:"
+        },
+        "footer": {
+            "intro": "Jelajahi keindahan pulau tropis dan rencanakan liburan akhir pekan Anda bersama Mobatravelll. Perjalanan Anda tak terlupakan.",
+            "aboutTitle": "Jelajahi",
+            "featuresTitle": "Tautan Penting",
+            "companyTitle": "Informasi",
+            "contactTitle": "Hubungi Kami",
+            "getApp": "Layanan Konsumen",
+            "download": "Chat WhatsApp",
+            "rights": "",
+            "privacy": "Kebijakan Privasi",
+            "terms": "Syarat & Ketentuan",
+            "about": [
+                { "name": "Eco Resort", "href": "#" },
+                { "name": "Paket Snorkeling", "href": "#" },
+                { "name": "Sewa Kapal / Yacht", "href": "#" },
+                { "name": "Testimoni Pelanggan", "href": "#" }
+            ],
+            "features": [
+                { "name": "Jadwal Speedboat", "href": "#" },
+                { "name": "Loket Marina Ancol", "href": "#" },
+                { "name": "Paket Gathering Kantor", "href": "#" },
+                { "name": "Asuransi Perjalanan", "href": "#" }
+            ],
+            "company": [
+                { "name": "Tanya Jawab (FAQ)", "href": "#" },
+                { "name": "Aturan Berkunjung Pulau", "href": "#" },
+                { "name": "Kebijakan Privasi", "href": "#" }
+            ],
+            "contact": {
+                "email": "contact@Mobatravelll.com"
+            }
+        }
+    }
+}
