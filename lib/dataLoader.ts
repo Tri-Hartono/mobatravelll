@@ -50,6 +50,28 @@ export interface FeaturesData {
   items: FeatureItem[];
 }
 
+export interface PriceTier {
+  participants: string;
+  traditionalBoat?: number;
+  speedBoat?: number;
+  days2n1?: number;
+  days3n2?: number;
+}
+
+export interface RoomTypeOption {
+  name: string;
+  pricePerPax?: number;
+  weekdayPrice?: number;
+  weekendPrice?: number;
+  roomCount?: number;
+  capacity?: string;
+}
+
+export interface RundownStep {
+  time: string;
+  activity: string;
+}
+
 export interface RecommendationItem {
   id: string;
   name: string;
@@ -58,6 +80,17 @@ export interface RecommendationItem {
   duration: string;
   price: number;
   image: string;
+  category?: string;
+  priceTiers?: {
+    days2n1?: PriceTier[];
+    days3n2?: PriceTier[];
+    speedboatTiers?: PriceTier[];
+  };
+  roomTypes?: RoomTypeOption[];
+  inclusions?: string[];
+  exclusions?: string[];
+  notes?: string[];
+  rundown?: RundownStep[];
 }
 
 export interface RecommendationsData {

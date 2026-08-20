@@ -30,10 +30,15 @@ export default function DestinationsPage() {
 
     const locations = [
         'ALL',
-        'Pulau Macan',
-        'Pulau Pari',
         'Pulau Harapan',
-        'Pulau Pramuka',
+        'Pulau Payung',
+        'Pulau Sepa',
+        'Pulau Pelangi',
+        'Pulau Pari',
+        'Pulau Royal',
+        'Pulau Macan',
+        'Kemping',
+        'Diving',
     ];
 
     // Filter based on search query & categories

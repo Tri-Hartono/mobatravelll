@@ -2,21 +2,37 @@
     "en": {
         "brandName": "Mobatravelll",
         "navigation": [
-            { "name": "Home", "href": "/" },
-            { "name": "Destinations", "href": "/destinations" },
-            { "name": "Trip Plan", "href": "#trip-plan" },
-            { "name": "Contact Us", "href": "/contact" }
+            {
+                "name": "Home",
+                "href": "/"
+            },
+            {
+                "name": "Destinations",
+                "href": "/destinations"
+            },
+            {
+                "name": "Trip Plan",
+                "href": "#trip-plan"
+            },
+            {
+                "name": "Contact Us",
+                "href": "/contact"
+            }
         ],
         "hero": {
             "title": "Explore the Beauty of Thousand Islands",
-            "subtitle": "Take a break from the stress of Jakarta, plan your getaway, and explore your favorite islands.",
+            "subtitle": "Take a break from the stress of Jakarta, plan your tropical getaway, and explore your favorite islands.",
             "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600",
             "locations": [
-                "Pulau Macan",
-                "Pulau Pari",
-                "Pulau Pramuka",
                 "Pulau Harapan",
-                "Pulau Tidung"
+                "Pulau Pari",
+                "Pulau Payung",
+                "Pulau Royal",
+                "Pulau Sepa",
+                "Pulau Pelangi",
+                "Pulau Macan",
+                "Kemping",
+                "Free Dive & Scuba Diving"
             ],
             "labels": {
                 "yourLocation": "Search Destination Packages",
@@ -35,28 +51,28 @@
             "clickDetail": "Click to see detail itinerary",
             "items": [
                 {
-                    "id": "p1",
-                    "title": "Pulau Macan",
-                    "duration": "3 Days 2 Night",
-                    "image": "https://images.unsplash.com/photo-1540206395-68808572332f?q=80&w=600"
-                },
-                {
-                    "id": "p2",
-                    "title": "Pulau Pari",
-                    "duration": "2 Days 1 Night",
-                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600"
-                },
-                {
-                    "id": "p3",
-                    "title": "Pulau Pramuka",
-                    "duration": "3 Days 2 Night",
-                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
-                },
-                {
-                    "id": "p4",
+                    "id": "pulau-harapan",
                     "title": "Pulau Harapan",
-                    "duration": "2 Days 1 Night",
+                    "duration": "2D1N & 3D2N Island Hopping",
+                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600"
+                },
+                {
+                    "id": "pulau-payung",
+                    "title": "Pulau Payung Cottage",
+                    "duration": "2D1N & 3D2N + Free Banana Boat & Drone",
+                    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=600"
+                },
+                {
+                    "id": "pulau-sepa",
+                    "title": "Pulau Sepa Paradise",
+                    "duration": "2D1N Private Luxury Resort",
                     "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
+                },
+                {
+                    "id": "pulau-pelangi",
+                    "title": "Pulau Pelangi Resort",
+                    "duration": "Beachfront Cottage + Free Water Sports",
+                    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600"
                 }
             ]
         },
@@ -93,58 +109,514 @@
             "filterAll": "All Islands",
             "items": [
                 {
-                    "id": "r1",
-                    "name": "Pulau Macan Eco Resort",
-                    "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.9,
-                    "duration": "3 days 2 nights eco cabin with a friendly island host.",
-                    "price": 2450000,
-                    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=600"
+                    "id": "pulau-harapan",
+                    "name": "Pulau Harapan Snorkeling & Hopping",
+                    "location": "Kepulauan Seribu Utara, Jakarta",
+                    "rating": 4.85,
+                    "duration": "2D1N & 3D2N Island Hopping & Snorkeling tour with boat options.",
+                    "price": 375000,
+                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600",
+                    "category": "Pulau Harapan",
+                    "priceTiers": {
+                        "days2n1": [
+                            {
+                                "participants": "2 - 5 Pax",
+                                "traditionalBoat": 875000,
+                                "speedBoat": 1440000
+                            },
+                            {
+                                "participants": "6 - 9 Pax",
+                                "traditionalBoat": 535000,
+                                "speedBoat": 1310000
+                            },
+                            {
+                                "participants": "10 - 25 Pax",
+                                "traditionalBoat": 400000,
+                                "speedBoat": 975000
+                            },
+                            {
+                                "participants": "26 - 50 Pax",
+                                "traditionalBoat": 375000,
+                                "speedBoat": 915000
+                            }
+                        ],
+                        "days3n2": [
+                            {
+                                "participants": "2 - 5 Pax",
+                                "traditionalBoat": 1225000,
+                                "speedBoat": 1790000
+                            },
+                            {
+                                "participants": "6 - 9 Pax",
+                                "traditionalBoat": 715000,
+                                "speedBoat": 1315000
+                            },
+                            {
+                                "participants": "10 - 25 Pax",
+                                "traditionalBoat": 550000,
+                                "speedBoat": 1200000
+                            },
+                            {
+                                "participants": "26 - 50 Pax",
+                                "traditionalBoat": 490000,
+                                "speedBoat": 1150000
+                            }
+                        ]
+                    },
+                    "notes": [
+                        "ONE DAY TRIP: Minimum 5 Persons (Speedboat only)"
+                    ],
+                    "inclusions": [
+                        "Traditional Boat Ticket Round Trip (Non-AC) or Speedboat Round Trip (Full AC)",
+                        "AC Homestay & Water Dispenser",
+                        "Island Hopping & Snorkeling Boat",
+                        "Meals: 3x (2D1N) / 6x (3D2N) for Traditional Boat; 4x (2D1N) / 7x (3D2N) for Speedboat",
+                        "Full Snorkeling Equipment",
+                        "Underwater Camera (Free underwater documentation)",
+                        "BBQ Dinner",
+                        "Welcome Drink & Mineral Water",
+                        "Experienced Local Tour Guide",
+                        "Travel Insurance"
+                    ],
+                    "exclusions": [
+                        "Banana Boat, Canoe, Jetski, Scuba Diving",
+                        "Island Cleaning Fee & Docking Fee",
+                        "National Park & Sea Turtle Conservation Tickets",
+                        "Port Platform Fee",
+                        "Voluntary Tour Guide Tips",
+                        "Live Entertainment (Organ / Karaoke)",
+                        "Trip Banner & Drone Documentation"
+                    ],
+                    "rundown": [
+                        {
+                            "time": "06.30",
+                            "activity": "Meeting Point at Sunda Kelapa Harbor"
+                        },
+                        {
+                            "time": "07.00",
+                            "activity": "Ticket Boarding"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Boat Departure to the Island"
+                        },
+                        {
+                            "time": "10.30",
+                            "activity": "Arrival at Island Pier"
+                        },
+                        {
+                            "time": "11.15",
+                            "activity": "Arrival and Check-in at Cottage / Homestay"
+                        },
+                        {
+                            "time": "11.20 - 12.15",
+                            "activity": "Lunch & Refreshing Welcome Drink"
+                        },
+                        {
+                            "time": "12.30 - 13.00",
+                            "activity": "Rest & Prayer Time"
+                        },
+                        {
+                            "time": "13.00 - 17.35",
+                            "activity": "Island Hopping, Snorkeling & Group Games"
+                        },
+                        {
+                            "time": "17.35 - 17.50",
+                            "activity": "Return to Accommodation & Sunset Views"
+                        },
+                        {
+                            "time": "17.50 - 19.25",
+                            "activity": "Shower, Rest & Dinner"
+                        },
+                        {
+                            "time": "19.30 - 22.00",
+                            "activity": "BBQ Party Time"
+                        },
+                        {
+                            "time": "06.00",
+                            "activity": "Morning Breakfast"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Mangrove Forest Trekking & Sea Turtle Sanctuary Tour"
+                        },
+                        {
+                            "time": "09.30 - 11.00",
+                            "activity": "Canoeing & Water Fun"
+                        },
+                        {
+                            "time": "11.30 - 12.00",
+                            "activity": "Return to Room & Check-Out Preparation"
+                        },
+                        {
+                            "time": "14.00",
+                            "activity": "Return Boat Trip to Jakarta"
+                        }
+                    ]
                 },
                 {
-                    "id": "r2",
-                    "name": "Pulau Pari Sandy Beach",
-                    "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.7,
-                    "duration": "2 days 1 night with full coral reef snorkeling gear.",
-                    "price": 950000,
-                    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600"
+                    "id": "pulau-payung",
+                    "name": "Pulau Payung Cottage Resort",
+                    "location": "Kepulauan Seribu Selatan, Jakarta",
+                    "rating": 4.88,
+                    "duration": "2D1N & 3D2N Speedboat Cottage + Free Banana Boat, Drone & Karaoke.",
+                    "price": 1450000,
+                    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=600",
+                    "category": "Pulau Payung",
+                    "priceTiers": {
+                        "speedboatTiers": [
+                            {
+                                "participants": "2 - 15 Pax",
+                                "days2n1": 2000000,
+                                "days3n2": 2550000
+                            },
+                            {
+                                "participants": "16 - 25 Pax",
+                                "days2n1": 1700000,
+                                "days3n2": 2450000
+                            },
+                            {
+                                "participants": "26 - 50 Pax",
+                                "days2n1": 1550000,
+                                "days3n2": 2250000
+                            },
+                            {
+                                "participants": ">= 51 Pax",
+                                "days2n1": 1450000,
+                                "days3n2": 1950000
+                            }
+                        ]
+                    },
+                    "notes": [
+                        "Cottage Types: Deluxe, Favorite, Twin & Suite",
+                        "ONE DAY TRIP: Minimum 5 Persons (Speedboat only)"
+                    ],
+                    "inclusions": [
+                        "Traditional Boat or Speedboat Round Trip Ticket (Full AC)",
+                        "AC Homestay / Cottage & Water Dispenser",
+                        "Island Exploration & Snorkeling Boat",
+                        "Meals: 3-4x (2D1N) / 6-7x (3D2N)",
+                        "Complete Snorkeling Gear",
+                        "Underwater Camera (Free underwater documentation)",
+                        "Beachside BBQ Dinner",
+                        "Welcome Drink & Travel Insurance",
+                        "Local Tour Guide",
+                        "FREE Banana Boat Ride, Free Drone Documentation & Karaoke"
+                    ],
+                    "exclusions": [
+                        "Personal Expenses",
+                        "Voluntary Tour Guide Tips"
+                    ],
+                    "rundown": [
+                        {
+                            "time": "06.30",
+                            "activity": "Meeting Point at Sunda Kelapa Harbor"
+                        },
+                        {
+                            "time": "07.00",
+                            "activity": "Ticket Boarding"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Departure to Pulau Payung"
+                        },
+                        {
+                            "time": "09.35",
+                            "activity": "Arrival at Pulau Payung"
+                        },
+                        {
+                            "time": "10.00",
+                            "activity": "Arrival and Check-in at Villa"
+                        },
+                        {
+                            "time": "11.20 - 12.15",
+                            "activity": "Lunch & Fresh Welcome Drink"
+                        },
+                        {
+                            "time": "12.30 - 13.00",
+                            "activity": "Rest & Refresh"
+                        },
+                        {
+                            "time": "13.00 - 17.35",
+                            "activity": "Island Exploration, Snorkeling & Banana Boat"
+                        },
+                        {
+                            "time": "17.50 - 19.25",
+                            "activity": "Return to Accommodation & Sunset View"
+                        },
+                        {
+                            "time": "19.30 - 22.00",
+                            "activity": "BBQ Dinner Time"
+                        },
+                        {
+                            "time": "06.00",
+                            "activity": "Morning Breakfast"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Preparation & Visit to Asha Resort"
+                        },
+                        {
+                            "time": "10.30 - 13.45",
+                            "activity": "Return to Villa & Check-Out Preparation"
+                        },
+                        {
+                            "time": "14.00",
+                            "activity": "Return Boat Trip to Jakarta"
+                        }
+                    ]
                 },
                 {
-                    "id": "r3",
-                    "name": "Pulau Harapan Hopping",
+                    "id": "pulau-sepa",
+                    "name": "Pulau Sepa Paradise Resort",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.92,
+                    "duration": "2D1N Private Tropical Island & Luxury Beachfront Villa (Full Board Meals).",
+                    "price": 3400000,
+                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600",
+                    "category": "Pulau Sepa",
+                    "roomTypes": [
+                        {
+                            "name": "Napoleon Suite",
+                            "weekdayPrice": 3600000,
+                            "weekendPrice": 4000000,
+                            "capacity": "Per Pax (2D1N)"
+                        },
+                        {
+                            "name": "Penyu Beach",
+                            "weekdayPrice": 3600000,
+                            "weekendPrice": 4000000,
+                            "capacity": "Per Pax (2D1N)"
+                        },
+                        {
+                            "name": "Gurita Family",
+                            "weekdayPrice": 3400000,
+                            "weekendPrice": 3800000,
+                            "capacity": "Per Pax (2D1N)"
+                        }
+                    ],
+                    "inclusions": [
+                        "Speedboat Round Trip Ticket (Marina Ancol)",
+                        "Exclusive Beachfront Villa",
+                        "3x Buffet Meals (Breakfast, Lunch, and Dinner)",
+                        "Full Sepa Island Resort Facilities & Natural White Sand Beach"
+                    ],
+                    "exclusions": [
+                        "Extra Water Sports (Jetski, Banana Boat, Scuba Diving)",
+                        "Personal Expenses & Guide Tips"
+                    ]
+                },
+                {
+                    "id": "pulau-pelangi",
+                    "name": "Pulau Pelangi Resort",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.86,
+                    "duration": "Beachfront Cottage (1 Room 2 Persons) with Complete Water Activities.",
+                    "price": 2300000,
+                    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600",
+                    "category": "Pulau Pelangi",
+                    "roomTypes": [
+                        {
+                            "name": "Bougenville",
+                            "pricePerPax": 2800000,
+                            "roomCount": 14,
+                            "capacity": "1 Room 2 Persons"
+                        },
+                        {
+                            "name": "Jasmine",
+                            "pricePerPax": 2400000,
+                            "roomCount": 9,
+                            "capacity": "1 Room 2 Persons"
+                        },
+                        {
+                            "name": "Tulip",
+                            "pricePerPax": 2300000,
+                            "roomCount": 4,
+                            "capacity": "1 Room 2 Persons"
+                        }
+                    ],
+                    "notes": [
+                        "Speedboat Ticket not included: Weekday Rp 290.000 / pax (One Way) | Weekend Rp 360.000 / pax (One Way)"
+                    ],
+                    "inclusions": [
+                        "Government Tax and Service",
+                        "Welcome Drink & Mineral Water",
+                        "4x Meals (1x Breakfast, 2x Lunch, 1x Dinner)",
+                        "Free Snorkeling Gear",
+                        "Free Paddle Boarding",
+                        "Free Canoe Rental",
+                        "Free Table Tennis and Beach Volleyball",
+                        "Free Bicycle for Island Exploration"
+                    ],
+                    "exclusions": [
+                        "Speedboat Ticket Marina Ancol (Weekday 290k one way, Weekend 360k one way)",
+                        "Personal Expenses & Tips"
+                    ]
+                },
+                {
+                    "id": "pulau-pari",
+                    "name": "Pulau Pari Virgin Beach",
+                    "location": "Kepulauan Seribu Selatan, Jakarta",
+                    "rating": 4.75,
+                    "duration": "2D1N & 3D2N White Sand Beach & Coral Reef Snorkeling.",
+                    "price": 450000,
+                    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600",
+                    "category": "Pulau Pari",
+                    "inclusions": [
+                        "Boat Ticket Round Trip",
+                        "AC Homestay & Bicycle",
+                        "Snorkeling Gear & Underwater Photos",
+                        "3x Meals & BBQ",
+                        "Local Guide"
+                    ],
+                    "exclusions": [
+                        "Personal Expenses",
+                        "Watersports"
+                    ]
+                },
+                {
+                    "id": "pulau-royal",
+                    "name": "Pulau Royal Sunset Resort",
                     "location": "Kepulauan Seribu, Jakarta",
                     "rating": 4.8,
-                    "duration": "2 days 1 night island hopping by traditional boat.",
-                    "price": 1150000,
-                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600"
+                    "duration": "Exclusive Mangrove & Sunset View Resort.",
+                    "price": 950000,
+                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600",
+                    "category": "Pulau Royal",
+                    "inclusions": [
+                        "Speedboat Ticket Round Trip",
+                        "Royal Cottage AC",
+                        "Fullboard Meals & Sunset Mangrove Tour",
+                        "Snorkeling Gear",
+                        "Local Guide"
+                    ],
+                    "exclusions": [
+                        "Personal Expenses"
+                    ],
+                    "rundown": [
+                        {
+                            "time": "06.30",
+                            "activity": "Meeting Point at Sunda Kelapa Harbor"
+                        },
+                        {
+                            "time": "07.00",
+                            "activity": "Ticket Boarding"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Boat Departure to the Island"
+                        },
+                        {
+                            "time": "10.30",
+                            "activity": "Arrival at Island Pier"
+                        },
+                        {
+                            "time": "11.15",
+                            "activity": "Arrival and Check-in at Cottage / Homestay"
+                        },
+                        {
+                            "time": "11.20 - 12.15",
+                            "activity": "Lunch & Refreshing Welcome Drink"
+                        },
+                        {
+                            "time": "12.30 - 13.00",
+                            "activity": "Rest & Prayer Time"
+                        },
+                        {
+                            "time": "13.00 - 17.35",
+                            "activity": "Island Hopping, Snorkeling & Group Games"
+                        },
+                        {
+                            "time": "17.35 - 17.50",
+                            "activity": "Return to Accommodation & Sunset Views"
+                        },
+                        {
+                            "time": "17.50 - 19.25",
+                            "activity": "Shower, Rest & Dinner"
+                        },
+                        {
+                            "time": "19.30 - 22.00",
+                            "activity": "BBQ Party Time"
+                        },
+                        {
+                            "time": "06.00",
+                            "activity": "Morning Breakfast"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Mangrove Forest Trekking & Sea Turtle Sanctuary Tour"
+                        },
+                        {
+                            "time": "09.30 - 11.00",
+                            "activity": "Canoeing & Water Fun"
+                        },
+                        {
+                            "time": "11.30 - 12.00",
+                            "activity": "Return to Room & Check-Out Preparation"
+                        },
+                        {
+                            "time": "14.00",
+                            "activity": "Return Boat Trip to Jakarta"
+                        }
+                    ]
                 },
                 {
-                    "id": "r4",
-                    "name": "Pulau Pramuka Turtle Tour",
+                    "id": "pulau-macan",
+                    "name": "Pulau Macan Eco Village & Resort",
                     "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.6,
-                    "duration": "3 days 2 nights with turtle conservation educational tour.",
-                    "price": 1250000,
-                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                    "rating": 4.9,
+                    "duration": "Eco Wooden Cabins over the turquoise ocean.",
+                    "price": 2450000,
+                    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=600",
+                    "category": "Pulau Macan",
+                    "inclusions": [
+                        "Speedboat Round Trip Marina Ancol",
+                        "Eco Luxury Cottage Accommodation",
+                        "All Inclusive Meals & Snacks",
+                        "Snorkeling & Coral Preservation Tour"
+                    ],
+                    "exclusions": [
+                        "Personal Expenses & Diving"
+                    ]
                 },
                 {
-                    "id": "r5",
-                    "name": "Pulau Sepa Paradise",
+                    "id": "kemping",
+                    "name": "Pulau Seribu Beach Camping",
                     "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.75,
-                    "duration": "2 days 1 night luxury private beach cottage resort.",
-                    "price": 1950000,
-                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
+                    "rating": 4.7,
+                    "duration": "Beachfront Camping, Campfire, BBQ & Stargazing Experience.",
+                    "price": 350000,
+                    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=600",
+                    "category": "Kemping",
+                    "inclusions": [
+                        "Boat Ticket Round Trip",
+                        "Full Camping Tent & Sleeping Mat",
+                        "Campfire & BBQ Dinner",
+                        "Snorkeling Trip & Guide"
+                    ],
+                    "exclusions": [
+                        "Personal Equipment & Souvenirs"
+                    ]
                 },
                 {
-                    "id": "r6",
-                    "name": "Pulau Tidung Love Bridge",
+                    "id": "diving-license",
+                    "name": "Free Dive & Scuba Diving License",
                     "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.65,
-                    "duration": "2 days 1 night bicycle rental & water sports packages.",
-                    "price": 850000,
-                    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=600"
+                    "rating": 4.95,
+                    "duration": "Certified Open Water Scuba Diving & Freediving Courses.",
+                    "price": 3200000,
+                    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=600",
+                    "category": "Free dive and scuba Diving License",
+                    "inclusions": [
+                        "International Diving License / Certification",
+                        "Certified Instructor & Dive Master",
+                        "Full Diving Equipment & Tank",
+                        "Speedboat Dive Trips & Accommodation",
+                        "All Meals & Underwater Exam Photos"
+                    ],
+                    "exclusions": [
+                        "Personal Diving Wetsuit/Gear (Optional purchase)"
+                    ]
                 }
             ]
         },
@@ -162,15 +634,15 @@
                 },
                 {
                     "id": "a2",
-                    "title": "Turtle Conservation Pramuka",
-                    "location": "Eco Tourism",
-                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                    "title": "Sunset & Banana Boat in Pulau Payung",
+                    "location": "Resort Guide",
+                    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=600"
                 },
                 {
                     "id": "a3",
-                    "title": "Sunset at Tidung Love Bridge",
-                    "location": "Romance Spot",
-                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600"
+                    "title": "Luxury Vacation at Pulau Sepa",
+                    "location": "Private Resort",
+                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
                 }
             ]
         },
@@ -194,21 +666,54 @@
             "privacy": "Privacy policy",
             "terms": "Terms of service",
             "about": [
-                { "name": "Eco Resorts", "href": "#" },
-                { "name": "Snorkeling Packages", "href": "#" },
-                { "name": "Island Charters", "href": "#" },
-                { "name": "Testimonials", "href": "#" }
+                {
+                    "name": "Eco Resorts",
+                    "href": "#"
+                },
+                {
+                    "name": "Snorkeling Packages",
+                    "href": "#"
+                },
+                {
+                    "name": "Island Charters",
+                    "href": "#"
+                },
+                {
+                    "name": "Testimonials",
+                    "href": "#"
+                }
             ],
             "features": [
-                { "name": "Speedboat Schedule", "href": "#" },
-                { "name": "Marina Ancol Gate", "href": "#" },
-                { "name": "Corporate Outing", "href": "#" },
-                { "name": "Travel Insurance", "href": "#" }
+                {
+                    "name": "Speedboat Schedule",
+                    "href": "#"
+                },
+                {
+                    "name": "Marina Ancol Gate",
+                    "href": "#"
+                },
+                {
+                    "name": "Corporate Outing",
+                    "href": "#"
+                },
+                {
+                    "name": "Travel Insurance",
+                    "href": "#"
+                }
             ],
             "company": [
-                { "name": "FAQ", "href": "#" },
-                { "name": "Island Regulations", "href": "#" },
-                { "name": "Privacy & Policy", "href": "#" }
+                {
+                    "name": "FAQ",
+                    "href": "#"
+                },
+                {
+                    "name": "Island Regulations",
+                    "href": "#"
+                },
+                {
+                    "name": "Privacy & Policy",
+                    "href": "#"
+                }
             ],
             "contact": {
                 "email": "contact@Mobatravelll.com"
@@ -218,21 +723,37 @@
     "id": {
         "brandName": "Mobatravelll",
         "navigation": [
-            { "name": "Beranda", "href": "/" },
-            { "name": "Destinasi", "href": "/destinations" },
-            { "name": "Rencana Perjalanan", "href": "#trip-plan" },
-            { "name": "Hubungi Kami", "href": "/contact" }
+            {
+                "name": "Beranda",
+                "href": "/"
+            },
+            {
+                "name": "Destinasi",
+                "href": "/destinations"
+            },
+            {
+                "name": "Rencana Perjalanan",
+                "href": "#trip-plan"
+            },
+            {
+                "name": "Hubungi Kami",
+                "href": "/contact"
+            }
         ],
         "hero": {
             "title": "Jelajahi Keindahan Kepulauan Seribu",
             "subtitle": "Beristirahatlah sejenak dari penatnya Jakarta, rencanakan liburan akhir pekan Anda ke pulau favorit.",
             "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600",
             "locations": [
-                "Pulau Macan",
-                "Pulau Pari",
-                "Pulau Pramuka",
                 "Pulau Harapan",
-                "Pulau Tidung"
+                "Pulau Pari",
+                "Pulau Payung",
+                "Pulau Royal",
+                "Pulau Sepa",
+                "Pulau Pelangi",
+                "Pulau Macan",
+                "Kemping",
+                "Free Dive & Scuba Diving"
             ],
             "labels": {
                 "yourLocation": "Pencarian Paket Destinasi",
@@ -251,28 +772,28 @@
             "clickDetail": "Klik untuk melihat detail rencana perjalanan",
             "items": [
                 {
-                    "id": "p1",
-                    "title": "Pulau Macan",
-                    "duration": "3 Hari 2 Malam",
-                    "image": "https://images.unsplash.com/photo-1540206395-68808572332f?q=80&w=600"
-                },
-                {
-                    "id": "p2",
-                    "title": "Pulau Pari",
-                    "duration": "2 Hari 1 Malam",
-                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600"
-                },
-                {
-                    "id": "p3",
-                    "title": "Pulau Pramuka",
-                    "duration": "3 Hari 2 Malam",
-                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
-                },
-                {
-                    "id": "p4",
+                    "id": "pulau-harapan",
                     "title": "Pulau Harapan",
-                    "duration": "2 Hari 1 Malam",
+                    "duration": "2D1N & 3D2N Island Hopping",
+                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600"
+                },
+                {
+                    "id": "pulau-payung",
+                    "title": "Pulau Payung Cottage",
+                    "duration": "2D1N & 3D2N + Free Banana Boat & Drone",
+                    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=600"
+                },
+                {
+                    "id": "pulau-sepa",
+                    "title": "Pulau Sepa Paradise",
+                    "duration": "2D1N Villa Privat Mewah",
                     "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
+                },
+                {
+                    "id": "pulau-pelangi",
+                    "title": "Pulau Pelangi Resort",
+                    "duration": "Cottage Pantai + Free Wahana Air",
+                    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600"
                 }
             ]
         },
@@ -302,65 +823,521 @@
             ]
         },
         "recommendations": {
-            "title": "Rekomendasi Pulau Terbaik",
-            "subtitle": "Pulau-pulau pilihan dengan keindahan alam tropis yang menawan.",
+            "title": "Rekomendasi Paket Pulau Seribu",
+            "subtitle": "Pilihan paket wisata terlengkap sesuai pricelist resmi dengan fasilitas terjamin.",
             "startFrom": "Mulai dari",
             "bookNow": "Pesan Trip",
-            "filterAll": "Semua Pulau",
+            "filterAll": "Semua Destinasi",
             "items": [
                 {
-                    "id": "r1",
-                    "name": "Pulau Macan Eco Resort",
-                    "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.9,
-                    "duration": "Paket 3 hari 2 malam cottage ramah lingkungan dengan pemandu lokal.",
-                    "price": 2450000,
-                    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=600"
+                    "id": "pulau-harapan",
+                    "name": "Paket Wisata Pulau Harapan",
+                    "location": "Kepulauan Seribu Utara, Jakarta",
+                    "rating": 4.85,
+                    "duration": "Paket 2D1N & 3D2N Snorkeling & Jelajah Pulau (Kapal Tradisional & Speedboat).",
+                    "price": 375000,
+                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600",
+                    "category": "Pulau Harapan",
+                    "priceTiers": {
+                        "days2n1": [
+                            {
+                                "participants": "2 - 5 Orang",
+                                "traditionalBoat": 875000,
+                                "speedBoat": 1440000
+                            },
+                            {
+                                "participants": "6 - 9 Orang",
+                                "traditionalBoat": 535000,
+                                "speedBoat": 1310000
+                            },
+                            {
+                                "participants": "10 - 25 Orang",
+                                "traditionalBoat": 400000,
+                                "speedBoat": 975000
+                            },
+                            {
+                                "participants": "26 - 50 Orang",
+                                "traditionalBoat": 375000,
+                                "speedBoat": 915000
+                            }
+                        ],
+                        "days3n2": [
+                            {
+                                "participants": "2 - 5 Orang",
+                                "traditionalBoat": 1225000,
+                                "speedBoat": 1790000
+                            },
+                            {
+                                "participants": "6 - 9 Orang",
+                                "traditionalBoat": 715000,
+                                "speedBoat": 1315000
+                            },
+                            {
+                                "participants": "10 - 25 Orang",
+                                "traditionalBoat": 550000,
+                                "speedBoat": 1200000
+                            },
+                            {
+                                "participants": "26 - 50 Orang",
+                                "traditionalBoat": 490000,
+                                "speedBoat": 1150000
+                            }
+                        ]
+                    },
+                    "notes": [
+                        "ONE DAY TRIP: Minimal 5 Orang (hanya support SpeedBoat)"
+                    ],
+                    "inclusions": [
+                        "Tiket Kapal Tradisional PP (non AC) / Tiket Speedboat PP (Full AC)",
+                        "Homestay : AC dan Dispenser",
+                        "Kapal Jelajah dan Snorkeling",
+                        "Makan: 3x (2D1N) / 6x (3D2N) untuk Kapal Tradisional; 4x (2D1N) / 7x (3D2N) untuk Speedboat",
+                        "Alat Snorkeling Lengkap",
+                        "Kamera Underwater (Free dokumentasi bawah air)",
+                        "BBQ Ikan Bakar",
+                        "Welcome Drink & Air Mineral",
+                        "Tour Guide Lokal Berpengalaman",
+                        "Asuransi Perjalanan"
+                    ],
+                    "exclusions": [
+                        "Banana Boat, Jetski, Kano, Scuba Diving",
+                        "Uang Kebersihan & Uang Sandar Pulau Destinasi",
+                        "Tiket Taman Nasional & Penangkaran Penyu",
+                        "Uang Peron Perhubungan (Pelabuhan)",
+                        "Tips Tour Guide Sukarela",
+                        "Hiburan (Organ Tunggal atau Karaoke)",
+                        "Banner/Spanduk & Drone"
+                    ],
+                    "rundown": [
+                        {
+                            "time": "06.30",
+                            "activity": "Meeting Point di Pelabuhan Sunda Kelapa (sharloc)"
+                        },
+                        {
+                            "time": "07.00",
+                            "activity": "Boarding Tiket"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Mulai Berangkat Menuju Pulau"
+                        },
+                        {
+                            "time": "10.30",
+                            "activity": "Tiba di Pulau (bisa lebih cepat atau lambat)"
+                        },
+                        {
+                            "time": "11.15",
+                            "activity": "Tiba di Cottage / Homestay"
+                        },
+                        {
+                            "time": "11.20 - 12.15",
+                            "activity": "Makan Siang dan Welcome Drink"
+                        },
+                        {
+                            "time": "12.30 - 13.00",
+                            "activity": "Istirahat dan Sholat"
+                        },
+                        {
+                            "time": "13.00 - 17.35",
+                            "activity": "Jelajah Pulau dan Snorkeling (Games)"
+                        },
+                        {
+                            "time": "17.35 - 17.50",
+                            "activity": "Menuju balik ke Penginapan"
+                        },
+                        {
+                            "time": "17.50 - 19.25",
+                            "activity": "Bersih-bersih dan Makan Malam"
+                        },
+                        {
+                            "time": "19.30 - 22.00",
+                            "activity": "BBQ Time"
+                        },
+                        {
+                            "time": "06.00",
+                            "activity": "Sarapan Pagi"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Persiapan dan Menuju Tracking Mangrove dan Penangkaran Penyu"
+                        },
+                        {
+                            "time": "09.30 - 11.00",
+                            "activity": "Main Kano"
+                        },
+                        {
+                            "time": "11.30 - 12.00",
+                            "activity": "Ke Penginapan dan Persiapan untuk Check Out"
+                        },
+                        {
+                            "time": "14.00",
+                            "activity": "Kembali ke Jakarta"
+                        }
+                    ]
                 },
                 {
-                    "id": "r2",
-                    "name": "Pantai Pasir Perawan Pulau Pari",
-                    "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.7,
-                    "duration": "Paket 2 hari 1 malam lengkap dengan alat snorkeling & sepeda.",
-                    "price": 950000,
-                    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600"
+                    "id": "pulau-payung",
+                    "name": "Paket Cottage Pulau Payung",
+                    "location": "Kepulauan Seribu Selatan, Jakarta",
+                    "rating": 4.88,
+                    "duration": "Paket Cottage 2D1N & 3D2N Speedboat + Free Banana Boat, Drone & Karaoke.",
+                    "price": 1450000,
+                    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=600",
+                    "category": "Pulau Payung",
+                    "priceTiers": {
+                        "speedboatTiers": [
+                            {
+                                "participants": "2 - 15 Orang",
+                                "days2n1": 2000000,
+                                "days3n2": 2550000
+                            },
+                            {
+                                "participants": "16 - 25 Orang",
+                                "days2n1": 1700000,
+                                "days3n2": 2450000
+                            },
+                            {
+                                "participants": "26 - 50 Orang",
+                                "days2n1": 1550000,
+                                "days3n2": 2250000
+                            },
+                            {
+                                "participants": ">= 51 Orang",
+                                "days2n1": 1450000,
+                                "days3n2": 1950000
+                            }
+                        ]
+                    },
+                    "notes": [
+                        "Pilihan Cottage: Deluxe, Favorite, Twin & Suite",
+                        "ONE DAY TRIP: Minimal 5 Orang (hanya support SpeedBoat)"
+                    ],
+                    "inclusions": [
+                        "Tiket Kapal Tradisional PP (non AC) / Tiket Speedboat PP (Full AC)",
+                        "Homestay / Cottage AC & Dispenser",
+                        "Kapal Jelajah dan Snorkeling",
+                        "Makan: 3x-4x (2D1N) / 6x-7x (3D2N)",
+                        "Alat Snorkeling Lengkap",
+                        "Kamera Underwater (Free dokumentasi bawah air)",
+                        "BBQ Malam Tepi Pantai",
+                        "Welcome Drink & Asuransi Perjalanan",
+                        "Tour Guide Lokal",
+                        "FREE Banana Boat, Free Dokumentasi Drone, dan Karaoke"
+                    ],
+                    "exclusions": [
+                        "Keperluan Pribadi",
+                        "Tips Tour Guide Sukarela"
+                    ],
+                    "rundown": [
+                        {
+                            "time": "06.30",
+                            "activity": "Meeting Point di Pelabuhan Sunda Kelapa"
+                        },
+                        {
+                            "time": "07.00",
+                            "activity": "Boarding Tiket"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Mulai Berangkat ke Pulau Payung"
+                        },
+                        {
+                            "time": "09.35",
+                            "activity": "Tiba di Pulau Payung"
+                        },
+                        {
+                            "time": "10.00",
+                            "activity": "Tiba di Villa"
+                        },
+                        {
+                            "time": "11.20 - 12.15",
+                            "activity": "Makan Siang dan Welcome Drink"
+                        },
+                        {
+                            "time": "12.30 - 13.00",
+                            "activity": "Istirahat"
+                        },
+                        {
+                            "time": "13.00 - 17.35",
+                            "activity": "Jelajah Pulau, Snorkling dan Banana Boat"
+                        },
+                        {
+                            "time": "17.50 - 19.25",
+                            "activity": "Menuju Ke Penginapan"
+                        },
+                        {
+                            "time": "19.30 - 22.00",
+                            "activity": "BBQ Time"
+                        },
+                        {
+                            "time": "06.00",
+                            "activity": "Sarapan Pagi"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Persiapan Menuju Asha Resort"
+                        },
+                        {
+                            "time": "10.30 - 13.45",
+                            "activity": "Menuju ke penginapan dan persiapan Check Out"
+                        },
+                        {
+                            "time": "14.00",
+                            "activity": "Kembali ke Jakarta"
+                        }
+                    ]
                 },
                 {
-                    "id": "r3",
-                    "name": "Jelajah Pulau Harapan",
+                    "id": "pulau-sepa",
+                    "name": "Paket Resort Pulau Sepa Paradise",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.92,
+                    "duration": "Paket 2D1N Private Resort Villa Tepi Pantai (Full Board Meals).",
+                    "price": 3400000,
+                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600",
+                    "category": "Pulau Sepa",
+                    "roomTypes": [
+                        {
+                            "name": "Napoleon Suite",
+                            "weekdayPrice": 3600000,
+                            "weekendPrice": 4000000,
+                            "capacity": "Per Orang (2D1N)"
+                        },
+                        {
+                            "name": "Penyu Beach",
+                            "weekdayPrice": 3600000,
+                            "weekendPrice": 4000000,
+                            "capacity": "Per Orang (2D1N)"
+                        },
+                        {
+                            "name": "Gurita Family",
+                            "weekdayPrice": 3400000,
+                            "weekendPrice": 3800000,
+                            "capacity": "Per Orang (2D1N)"
+                        }
+                    ],
+                    "inclusions": [
+                        "Tiket Kapal Speedboat Pulang Pergi (PP Marina Ancol)",
+                        "Villa Eksklusif Tepi Pantai Sepa",
+                        "Makan Lengkap Prasmanan (Breakfast, Lunch, dan Dinner)",
+                        "Fasilitas Sepa Island (Private Beach Resort & Pasir Putih Alami)"
+                    ],
+                    "exclusions": [
+                        "Wahana Water Sport Tambahan (Jetski, Banana Boat, Scuba Diving)",
+                        "Pengeluaran Pribadi & Tips Guide"
+                    ]
+                },
+                {
+                    "id": "pulau-pelangi",
+                    "name": "Paket Cottage Pulau Pelangi Resort",
+                    "location": "Kepulauan Seribu, Jakarta",
+                    "rating": 4.86,
+                    "duration": "Paket Cottage Tepi Pantai (1 Kamar 2 Orang) Lengkap dengan Aktivitas Olahraga Air.",
+                    "price": 2300000,
+                    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600",
+                    "category": "Pulau Pelangi",
+                    "roomTypes": [
+                        {
+                            "name": "Bougenville",
+                            "pricePerPax": 2800000,
+                            "roomCount": 14,
+                            "capacity": "1 Kamar 2 Orang"
+                        },
+                        {
+                            "name": "Jasmine",
+                            "pricePerPax": 2400000,
+                            "roomCount": 9,
+                            "capacity": "1 Kamar 2 Orang"
+                        },
+                        {
+                            "name": "Tulip",
+                            "pricePerPax": 2300000,
+                            "roomCount": 4,
+                            "capacity": "1 Kamar 2 Orang"
+                        }
+                    ],
+                    "notes": [
+                        "Belum Termasuk Tiket Perjalanan SpeedBoat (Weekday: Rp 290.000 / orang one-way | Weekend: Rp 360.000 / orang one-way)"
+                    ],
+                    "inclusions": [
+                        "Tax and Service",
+                        "Welcome Drink & Mineral Water",
+                        "4x Makan (1x Breakfast, 2x Lunch, 1x Dinner)",
+                        "Free Snorkeling",
+                        "Free Paddle Boarding",
+                        "Free Cano",
+                        "Free Games (Table Tennis dan Volley Ball)",
+                        "Free Bicycle Keliling Pulau"
+                    ],
+                    "exclusions": [
+                        "Tiket Speedboat PP Marina Ancol (Weekday 290k/one way, Weekend 360k/one way)",
+                        "Keperluan Pribadi & Tips"
+                    ]
+                },
+                {
+                    "id": "pulau-pari",
+                    "name": "Paket Wisata Pulau Pari",
+                    "location": "Kepulauan Seribu Selatan, Jakarta",
+                    "rating": 4.75,
+                    "duration": "Paket 2D1N & 3D2N Pantai Pasir Perawan, Snorkeling Bintang Laut & Sepeda Santai.",
+                    "price": 450000,
+                    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600",
+                    "category": "Pulau Pari",
+                    "inclusions": [
+                        "Tiket Kapal Penyeberangan PP",
+                        "Homestay AC & Sepeda Santai",
+                        "Alat Snorkeling & Foto Underwater",
+                        "Makan 3x & BBQ Ikan Segar",
+                        "Tour Guide Lokal"
+                    ],
+                    "exclusions": [
+                        "Pengeluaran Pribadi",
+                        "Wahana Water Sport"
+                    ]
+                },
+                {
+                    "id": "pulau-royal",
+                    "name": "Paket Pulau Royal Sunset Resort",
                     "location": "Kepulauan Seribu, Jakarta",
                     "rating": 4.8,
-                    "duration": "Paket 2 hari 1 malam island hopping keliling pulau-pulau tak berpenghuni.",
-                    "price": 1150000,
-                    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600"
+                    "duration": "Paket Cottage Eksklusif dengan View Sunset Terbaik & Jembatan Mangrove.",
+                    "price": 950000,
+                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600",
+                    "category": "Pulau Royal",
+                    "inclusions": [
+                        "Tiket Speedboat PP Marina Ancol",
+                        "Royal Cottage AC",
+                        "Makan Prasmanan & Tour Mangrove Sunset",
+                        "Alat Snorkeling Lengkap",
+                        "Tour Guide"
+                    ],
+                    "exclusions": [
+                        "Pengeluaran Pribadi"
+                    ],
+                    "rundown": [
+                        {
+                            "time": "06.30",
+                            "activity": "Meeting Point di Pelabuhan Sunda Kelapa (sharloc)"
+                        },
+                        {
+                            "time": "07.00",
+                            "activity": "Boarding Tiket"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Mulai Berangkat Menuju Pulau"
+                        },
+                        {
+                            "time": "10.30",
+                            "activity": "Tiba di Pulau (bisa lebih cepat atau lambat)"
+                        },
+                        {
+                            "time": "11.15",
+                            "activity": "Tiba di Cottage / Homestay"
+                        },
+                        {
+                            "time": "11.20 - 12.15",
+                            "activity": "Makan Siang dan Welcome Drink"
+                        },
+                        {
+                            "time": "12.30 - 13.00",
+                            "activity": "Istirahat dan Sholat"
+                        },
+                        {
+                            "time": "13.00 - 17.35",
+                            "activity": "Jelajah Pulau dan Snorkeling (Games)"
+                        },
+                        {
+                            "time": "17.35 - 17.50",
+                            "activity": "Menuju balik ke Penginapan"
+                        },
+                        {
+                            "time": "17.50 - 19.25",
+                            "activity": "Bersih-bersih dan Makan Malam"
+                        },
+                        {
+                            "time": "19.30 - 22.00",
+                            "activity": "BBQ Time"
+                        },
+                        {
+                            "time": "06.00",
+                            "activity": "Sarapan Pagi"
+                        },
+                        {
+                            "time": "08.00",
+                            "activity": "Persiapan dan Menuju Tracking Mangrove dan Penangkaran Penyu"
+                        },
+                        {
+                            "time": "09.30 - 11.00",
+                            "activity": "Main Kano"
+                        },
+                        {
+                            "time": "11.30 - 12.00",
+                            "activity": "Ke Penginapan dan Persiapan untuk Check Out"
+                        },
+                        {
+                            "time": "14.00",
+                            "activity": "Kembali ke Jakarta"
+                        }
+                    ]
                 },
                 {
-                    "id": "r4",
-                    "name": "Konservasi Penyu Pulau Pramuka",
+                    "id": "pulau-macan",
+                    "name": "Paket Eco Resort Pulau Macan",
                     "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.6,
-                    "duration": "Paket 3 hari 2 malam edukasi konservasi penyu dan terumbu karang.",
-                    "price": 1250000,
-                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                    "rating": 4.9,
+                    "duration": "Kabin Kayu Ramah Lingkungan di Atas Laut dengan Konsep Eco Tourism.",
+                    "price": 2450000,
+                    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=600",
+                    "category": "Pulau Macan",
+                    "inclusions": [
+                        "Tiket Speedboat PP Marina Ancol",
+                        "Akomodasi Eco Luxury Cottage",
+                        "All Inclusive Meals & Snacks Organik",
+                        "Peralatan Snorkeling & Konservasi Karang"
+                    ],
+                    "exclusions": [
+                        "Pengeluaran Pribadi & Scuba Diving"
+                    ]
                 },
                 {
-                    "id": "r5",
-                    "name": "Pulau Sepa Paradise Resort",
+                    "id": "kemping",
+                    "name": "Paket Kemping Pulau Seribu",
                     "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.75,
-                    "duration": "Paket 2 hari 1 malam cottage pantai privat berpasir putih lembut.",
-                    "price": 1950000,
-                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
+                    "rating": 4.7,
+                    "duration": "Sensasi Berkemah di Tepi Pantai, Api Unggun, BBQ & Menatap Bintang.",
+                    "price": 350000,
+                    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=600",
+                    "category": "Kemping",
+                    "inclusions": [
+                        "Tiket Kapal Penyeberangan PP",
+                        "Tenda Dome Kapasitas 4 Orang + Matras",
+                        "Api Unggun & BBQ Malam",
+                        "Kapal Snorkeling & Guide"
+                    ],
+                    "exclusions": [
+                        "Peralatan Pribadi & Belanja Cinderamata"
+                    ]
                 },
                 {
-                    "id": "r6",
-                    "name": "Jembatan Cinta Pulau Tidung",
+                    "id": "diving-license",
+                    "name": "Kursus Free Dive & Scuba Diving License",
                     "location": "Kepulauan Seribu, Jakarta",
-                    "rating": 4.65,
-                    "duration": "Paket 2 hari 1 malam penginapan AC, sepeda, dan wahana banana boat.",
-                    "price": 850000,
-                    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=600"
+                    "rating": 4.95,
+                    "duration": "Sertifikasi Resmi Diving License (Open Water / Advanced / Freedive).",
+                    "price": 3200000,
+                    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=600",
+                    "category": "Free dive and scuba Diving License",
+                    "inclusions": [
+                        "Sertifikasi / Lisensi Internasional Resmi",
+                        "Instruktur Bersertifikat & Dive Master",
+                        "Peralatan Diving Lengkap & Tabung Oksigen",
+                        "Tiket Speedboat, Penginapan & Logistik Latihan Laut",
+                        "Makan & Dokumentasi Bawah Air"
+                    ],
+                    "exclusions": [
+                        "Wetsuit / Masker Pribadi (Opsional)"
+                    ]
                 }
             ]
         },
@@ -378,15 +1355,15 @@
                 },
                 {
                     "id": "a2",
-                    "title": "Konservasi Tukik di Pulau Pramuka",
-                    "location": "Wisata Edukasi",
-                    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=600"
+                    "title": "Sunset & Banana Boat di Pulau Payung",
+                    "location": "Panduan Liburan",
+                    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=600"
                 },
                 {
                     "id": "a3",
-                    "title": "Sunset Sunset di Jembatan Cinta",
-                    "location": "Spot Romantis",
-                    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=600"
+                    "title": "Kemewahan Menginap di Pulau Sepa",
+                    "location": "Resort Privat",
+                    "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=600"
                 }
             ]
         },
@@ -410,21 +1387,54 @@
             "privacy": "Kebijakan Privasi",
             "terms": "Syarat & Ketentuan",
             "about": [
-                { "name": "Eco Resort", "href": "#" },
-                { "name": "Paket Snorkeling", "href": "#" },
-                { "name": "Sewa Kapal / Yacht", "href": "#" },
-                { "name": "Testimoni Pelanggan", "href": "#" }
+                {
+                    "name": "Eco Resort",
+                    "href": "#"
+                },
+                {
+                    "name": "Paket Snorkeling",
+                    "href": "#"
+                },
+                {
+                    "name": "Sewa Kapal / Yacht",
+                    "href": "#"
+                },
+                {
+                    "name": "Testimoni Pelanggan",
+                    "href": "#"
+                }
             ],
             "features": [
-                { "name": "Jadwal Speedboat", "href": "#" },
-                { "name": "Loket Marina Ancol", "href": "#" },
-                { "name": "Paket Gathering Kantor", "href": "#" },
-                { "name": "Asuransi Perjalanan", "href": "#" }
+                {
+                    "name": "Jadwal Speedboat",
+                    "href": "#"
+                },
+                {
+                    "name": "Loket Marina Ancol",
+                    "href": "#"
+                },
+                {
+                    "name": "Paket Gathering Kantor",
+                    "href": "#"
+                },
+                {
+                    "name": "Asuransi Perjalanan",
+                    "href": "#"
+                }
             ],
             "company": [
-                { "name": "Tanya Jawab (FAQ)", "href": "#" },
-                { "name": "Aturan Berkunjung Pulau", "href": "#" },
-                { "name": "Kebijakan Privasi", "href": "#" }
+                {
+                    "name": "Tanya Jawab (FAQ)",
+                    "href": "#"
+                },
+                {
+                    "name": "Aturan Berkunjung Pulau",
+                    "href": "#"
+                },
+                {
+                    "name": "Kebijakan Privasi",
+                    "href": "#"
+                }
             ],
             "contact": {
                 "email": "contact@Mobatravelll.com"

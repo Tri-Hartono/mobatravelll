@@ -19,10 +19,12 @@ export default function Recommendations() {
     // Pulau Seribu filtering options
     const locations = [
         'ALL',
-        'Pulau Macan',
-        'Pulau Pari',
         'Pulau Harapan',
-        'Pulau Pramuka',
+        'Pulau Payung',
+        'Pulau Sepa',
+        'Pulau Pelangi',
+        'Pulau Pari',
+        'Pulau Macan',
     ];
 
     const filteredItems =
