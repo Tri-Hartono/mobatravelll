@@ -99,7 +99,7 @@ export default function Footer() {
               <div className="mt-2">
                 <span className="text-xs text-gray-400 font-bold block mb-1">{footerData.getApp}</span>
                 <a 
-                  href="https://wa.me/6281917285865" 
+                  href="https://wa.me/6281916028221" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-xl bg-brand px-4 py-2 text-xs font-bold text-white shadow-md hover:bg-brand-hover active:scale-[0.98] transition-all cursor-pointer"

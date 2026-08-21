@@ -18,7 +18,7 @@ export default function ContactPage() {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         
-        const waNumber = '6281917285865';
+        const waNumber = '6281916028221';
         const formattedMessage = language === 'id'
             ? `Halo Mobatravelll!\n\nNama: *${name}*\nEmail: *${email}*\nNo. WhatsApp: *${phone}*\n\nPesan:\n_${message}_`
             : `Hello Mobatravelll!\n\nName: *${name}*\nEmail: *${email}*\nWhatsApp No: *${phone}*\n\nMessage:\n_${message}_`;
@@ -85,7 +85,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <span className='text-xs font-bold text-gray-400 block uppercase tracking-wider'>WhatsApp</span>
-                                        <span className='text-base font-bold text-gray-800 block mt-0.5'>+62 819-1728-5865</span>
+                                        <span className='text-base font-bold text-gray-800 block mt-0.5'>+62 819-1602-8221</span>
                                     </div>
                                 </div>
 

@@ -58,7 +58,7 @@ export default function DestinationsPage() {
         const formattedPrice = bookingItem.price.toLocaleString('id-ID');
         const totalCost = bookingItem.price * guests;
         const formattedTotalCost = totalCost.toLocaleString('id-ID');
-        const waNumber = '6281917285865';
+        const waNumber = '6281916028221';
 
         const message =
             language === 'id'

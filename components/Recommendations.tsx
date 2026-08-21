@@ -39,7 +39,7 @@ export default function Recommendations() {
         if (!bookingItem || !selectedDate) return;
 
         const formattedPrice = bookingItem.price.toLocaleString('id-ID');
-        const waNumber = '6281917285865';
+        const waNumber = '6281916028221';
 
         const message =
             language === 'id'

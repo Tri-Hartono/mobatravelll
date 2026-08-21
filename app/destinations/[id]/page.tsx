@@ -89,7 +89,7 @@ export default function DestinationDetailPage() {
   const formattedUnitPrice = currentUnitPrice.toLocaleString("id-ID");
   const totalCost = currentUnitPrice * guests;
   const formattedTotalCost = totalCost.toLocaleString("id-ID");
-  const waNumber = "6281917285865";
+  const waNumber = "6281916028221";
 
   const handleBooking = () => {
     if (!selectedDate) return;
